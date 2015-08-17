@@ -7,9 +7,9 @@ live dashboard using Kibana.
 
 Launch:
 
-    curl -O http://mir2.ovh.net/ftp.apache.org/dist/spark/spark-1.1.0/spark-1.1.0.tgz"
-    tar xvzf spark-1.1.0.tgz
-    cd spark-1.1.0
+    curl -O http://d3kbcqa49mib13.cloudfront.net/spark-1.4.0-bin-hadoop2.6.tgz
+    tar -xf spark-1.4.0-bin-hadoop2.6.tgz
+    cd spark-1.4.0-bin-hadoop2.6
     ./sbt/sbt assembly
     
     cd ..
